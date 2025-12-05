@@ -12,7 +12,7 @@ import {
   DialogTrigger,
 } from "./ui/dialog";
 import artwork1 from "@assets/generated_images/Digital_art_work_sample_dafc728a.png";
-import artwork2 from "@assets/generated_images/Tech_pattern_artwork_bbb48d39.png";
+import artwork2 from "@assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png";
 import artwork3 from "@assets/generated_images/Abstract_neon_painting_9f7c488f.png";
 import artwork4 from "@assets/generated_images/Holographic_interface_art_e487b82d.png";
 
