@@ -9,6 +9,7 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
   DialogTrigger,
 } from "./ui/dialog";
 import artwork1 from "@assets/generated_images/Digital_art_work_sample_dafc728a.png";
@@ -104,6 +105,9 @@ export default function PortfolioSection() {
             <DialogContent className="bg-card border-2 border-purple-500/50 shadow-neon-purple">
               <DialogHeader>
                 <DialogTitle className="font-orbitron text-purple-500">新增作品</DialogTitle>
+                <DialogDescription className="text-muted-foreground">
+                  填寫作品資訊以新增到作品集
+                </DialogDescription>
               </DialogHeader>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -206,6 +210,9 @@ export default function PortfolioSection() {
             <DialogContent className="bg-card border-2 border-purple-500/50 shadow-neon-purple max-w-3xl">
               <DialogHeader>
                 <DialogTitle className="font-orbitron text-purple-500">{selectedItem.title}</DialogTitle>
+                <DialogDescription className="text-muted-foreground">
+                  {selectedItem.description}
+                </DialogDescription>
               </DialogHeader>
               <div className="space-y-4">
                 <img 

@@ -9,6 +9,7 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
   DialogTrigger,
 } from "./ui/dialog";
 
@@ -100,6 +101,9 @@ export default function DiarySection() {
                 <DialogTitle className="font-orbitron text-cyan-400">
                   {editingEntry ? "編輯日記" : "新增日記"}
                 </DialogTitle>
+                <DialogDescription className="text-muted-foreground">
+                  {editingEntry ? "編輯你的日記內容" : "記錄你的想法和經歷"}
+                </DialogDescription>
               </DialogHeader>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>

@@ -3,6 +3,9 @@ import { X, ZoomIn } from "lucide-react";
 import {
   Dialog,
   DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
 } from "./ui/dialog";
 import art1 from "@assets/generated_images/3D_geometric_art_901137fb.png";
 import art2 from "@assets/generated_images/Digital_art_work_sample_dafc728a.png";
@@ -75,7 +78,12 @@ export default function GallerySection() {
                 className="w-full h-auto"
               />
               <div className="p-6 border-t border-cyan-400/30">
-                <h3 className="font-orbitron text-xl text-cyan-400">{selectedImage.title}</h3>
+                <DialogHeader>
+                  <DialogTitle className="font-orbitron text-xl text-cyan-400">{selectedImage.title}</DialogTitle>
+                  <DialogDescription className="text-cyan-400/70">
+                    圖畫展示
+                  </DialogDescription>
+                </DialogHeader>
               </div>
             </DialogContent>
           </Dialog>
