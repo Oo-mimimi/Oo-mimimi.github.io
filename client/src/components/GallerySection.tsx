@@ -7,30 +7,10 @@ import {
   DialogTitle,
   DialogDescription,
 } from "./ui/dialog";
-import art1 from "@assets/generated_images/3D_geometric_art_901137fb.png";
-import art2 from "@assets/generated_images/Digital_art_work_sample_dafc728a.png";
-import art3 from "@assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png";
-import art4 from "@assets/generated_images/Abstract_neon_painting_9f7c488f.png";
-import art5 from "@assets/generated_images/Holographic_interface_art_e487b82d.png";
-import art6 from "@assets/generated_images/Cyberpunk_hero_background_66e69e1f.png";
-
-interface GalleryImage {
-  id: string;
-  src: string;
-  title: string;
-}
+import { drawings } from "@/data/content";
 
 export default function GallerySection() {
-  const [images] = useState<GalleryImage[]>([
-    { id: "1", src: art1, title: "3D 幾何藝術" },
-    { id: "2", src: art2, title: "數位作品" },
-    { id: "3", src: art3, title: "電路圖案" },
-    { id: "4", src: art4, title: "抽象繪畫" },
-    { id: "5", src: art5, title: "全息介面" },
-    { id: "6", src: art6, title: "合成波景觀" },
-  ]);
-
-  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+  const [selectedImage, setSelectedImage] = useState<typeof drawings[0] | null>(null);
 
   return (
     <section id="gallery" className="py-24 px-6 bg-card/20">
@@ -40,7 +20,7 @@ export default function GallerySection() {
         </h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {images.map((image) => (
+          {drawings.map((image) => (
             <div
               key={image.id}
               className="group relative aspect-square overflow-hidden rounded-md border-2 border-transparent hover:border-cyan-400 transition-all duration-300 cursor-pointer hover:shadow-neon-cyan"
@@ -48,7 +28,7 @@ export default function GallerySection() {
               data-testid={`gallery-image-${image.id}`}
             >
               <img 
-                src={image.src} 
+                src={image.url} 
                 alt={image.title}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -73,7 +53,7 @@ export default function GallerySection() {
                 <X className="w-5 h-5" />
               </button>
               <img 
-                src={selectedImage.src} 
+                src={selectedImage.url} 
                 alt={selectedImage.title}
                 className="w-full h-auto"
               />

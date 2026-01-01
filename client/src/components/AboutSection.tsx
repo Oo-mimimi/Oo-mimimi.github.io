@@ -1,5 +1,3 @@
-import avatarImage from "@assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png";
-
 export default function AboutSection() {
   return (
     <section id="about" className="py-24 px-6 relative">
@@ -20,7 +18,7 @@ export default function AboutSection() {
           <div className="flex-shrink-0">
             <div className="relative w-48 h-48 rounded-full border-4 border-cyan-400 p-1 shadow-neon-cyan">
               <img 
-                src={avatarImage} 
+                src="/attached_assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png" 
                 alt="Avatar" 
                 className="w-full h-full rounded-full object-cover"
               />
