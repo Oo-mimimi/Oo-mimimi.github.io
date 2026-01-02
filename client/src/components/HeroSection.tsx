@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(/attached_assets/generated_images/Cyberpunk_hero_background_66e69e1f.png)` }}
+        style={{ backgroundImage: `url(/attached_assets/generated_images/screenshot_2025-12-28_14.48.19.png)` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-background" />
       
