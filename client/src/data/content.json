@@ -1,0 +1,104 @@
+{
+  "works": [
+    {
+      "id": "4",
+      "title": "全息介面設計",
+      "description": "未來感的UI設計概念，探索人機互動的可能性。",
+      "imageUrl": "/attached_assets/generated_images/Holographic_interface_art_e487b82d.png",
+      "tags": [
+        "UI設計",
+        "互動"
+      ],
+      "link": "#",
+      "content": "# 全息介面設計\n\n這是一個探索未來感UI設計的概念作品。\n\n## 設計目標\n\n探索**人機互動**的可能性，創造出具有未來感的介面設計。\n\n## 設計特色\n\n- 全息投影效果\n- 直觀的互動方式\n- 科技感與美學的平衡\n",
+      "slug": "全息介面設計"
+    },
+    {
+      "id": "3",
+      "title": "抽象霓虹繪畫",
+      "description": "使用流動的霓虹色彩創作，表達情感與想像。",
+      "imageUrl": "/attached_assets/generated_images/Abstract_neon_painting_9f7c488f.png",
+      "tags": [
+        "繪畫",
+        "抽象"
+      ],
+      "link": "#",
+      "content": "# 抽象霓虹繪畫\n\n這是一個使用流動霓虹色彩創作的抽象作品。\n\n## 創作靈感\n\n透過**流動的色彩**和**抽象的形式**，表達內心的情感與想像。\n\n## 色彩運用\n\n選用了多種霓虹色彩，創造出視覺上的層次感和動感。\n",
+      "slug": "抽象霓虹繪畫"
+    },
+    {
+      "id": "2",
+      "title": "電路板圖案",
+      "description": "靈感來自電路板的複雜線路，展現科技與美學的融合。",
+      "imageUrl": "/attached_assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png",
+      "tags": [
+        "圖形設計",
+        "科技"
+      ],
+      "link": "#",
+      "content": "# 電路板圖案\n\n這個作品的靈感來自電路板的複雜線路結構。\n\n## 設計概念\n\n將**科技元素**與**美學設計**融合，展現出科技與藝術的完美結合。\n\n## 創作過程\n\n從觀察電路板的線路開始，逐步轉化為視覺設計元素，最終形成這個作品。\n",
+      "slug": "電路板圖案"
+    },
+    {
+      "id": "1",
+      "title": "數位藝術創作",
+      "description": "探索霓虹光與幾何圖形的結合，創造未來感的視覺體驗。",
+      "imageUrl": "/attached_assets/generated_images/Digital_art_work_sample_dafc728a.png",
+      "tags": [
+        "數位藝術",
+        "設計"
+      ],
+      "link": "#",
+      "content": "# 數位藝術創作\n\n這是一個探索霓虹光與幾何圖形結合的數位藝術作品。\n\n## 創作理念\n\n透過數位工具，我嘗試將**霓虹光**的流動感與**幾何圖形**的結構性結合，創造出具有未來感的視覺體驗。\n\n## 技術細節\n\n- 使用數位繪圖軟體進行創作\n- 結合多種圖層效果\n- 注重色彩與光影的平衡\n",
+      "slug": "數位藝術創作"
+    }
+  ],
+  "diaries": [
+    {
+      "id": "1",
+      "date": "2024-11-07",
+      "title": "第一天的開始",
+      "content": "# 第一天的開始\n\n今天開始建立我的個人網站，感覺很興奮！\n\n## 開始的動機\n\n這將是記錄我生活和想法的地方。我希望能夠透過這個網站，分享我的創作和思考。\n\n## 未來的計劃\n\n接下來我會繼續完善這個網站，添加更多功能和內容。\n",
+      "slug": "第一天的開始"
+    },
+    {
+      "id": "2",
+      "date": "2024-11-06",
+      "title": "學習新技術",
+      "content": "# 學習新技術\n\n深入研究了賽博朋克風格的設計，霓虹光效果真的很酷！\n\n## 學習心得\n\n在學習過程中，我發現**霓虹光效果**不僅僅是視覺上的美感，更是一種表達方式。\n\n## 技術要點\n\n- CSS 漸變效果\n- 陰影和光暈的運用\n- 色彩搭配的技巧\n",
+      "slug": "學習新技術"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "1",
+      "url": "/attached_assets/generated_images/3D_geometric_art_901137fb.png",
+      "title": "3D 幾何藝術"
+    },
+    {
+      "id": "2",
+      "url": "/attached_assets/generated_images/Digital_art_work_sample_dafc728a.png",
+      "title": "數位作品"
+    },
+    {
+      "id": "3",
+      "url": "/attached_assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png",
+      "title": "電路圖案"
+    },
+    {
+      "id": "4",
+      "url": "/attached_assets/generated_images/Abstract_neon_painting_9f7c488f.png",
+      "title": "抽象繪畫"
+    },
+    {
+      "id": "5",
+      "url": "/attached_assets/generated_images/Holographic_interface_art_e487b82d.png",
+      "title": "全息介面"
+    },
+    {
+      "id": "6",
+      "url": "/attached_assets/generated_images/Cyberpunk_hero_background_66e69e1f.png",
+      "title": "合成波景觀"
+    }
+  ]
+}

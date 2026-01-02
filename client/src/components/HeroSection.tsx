@@ -1,5 +1,4 @@
 import { useState } from "react";
-import heroImage from "@assets/generated_images/Cyberpunk_hero_background_66e69e1f.png";
 
 export default function HeroSection() {
   const [screenName] = useState("NEON_STUDENT");
@@ -8,7 +7,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(/attached_assets/generated_images/Cyberpunk_hero_background_66e69e1f.png)` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-background" />
       
