@@ -19,7 +19,7 @@ export default function AboutSection() {
             <div className="relative w-48 h-48 rounded-full border-4 border-cyan-400 p-1 shadow-neon-cyan">
               <img 
                 src="/attached_assets/generated_images/channels4_profile.jpg" 
-                alt="Avatar" 
+                alt="醉酒詩仙" 
                 className="w-full h-full rounded-full object-cover"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-400/20 to-purple-500/20" />
@@ -28,7 +28,7 @@ export default function AboutSection() {
 
           <div className="flex-1 space-y-4">
             <div className="border-l-4 border-cyan-400 pl-6">
-              <h3 className="font-orbitron font-bold text-2xl text-cyan-400 mb-2">NEON_STUDENT</h3>
+              <h3 className="font-orbitron font-bold text-2xl text-cyan-400 mb-2">醉酒詩仙</h3>
               <p className="text-muted-foreground font-mono">學生 | 創作者 | 技術愛好者</p>
             </div>
 
