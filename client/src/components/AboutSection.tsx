@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="flex-shrink-0">
             <div className="relative w-48 h-48 rounded-full border-4 border-cyan-400 p-1 shadow-neon-cyan">
               <img 
-                src="/attached_assets/generated_images/Cyberpunk_avatar_portrait_0d34f970.png" 
+                src="/attached_assets/generated_images/channels4_profile.jpg" 
                 alt="Avatar" 
                 className="w-full h-full rounded-full object-cover"
               />
