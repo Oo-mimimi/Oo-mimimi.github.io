@@ -6,7 +6,7 @@ export default function ContactSection() {
     { icon: Github, label: "GitHub", value: "醉酒詩仙", link: "https://github.com" },
     { icon: Twitter, label: "Twitter", value: "醉酒詩仙", link: "https://twitter.com" },
     { icon: Linkedin, label: "LinkedIn", value: "醉酒詩仙", link: "https://linkedin.com" },
-    { icon: Instagram, label: "Instagram", value: "醉酒詩仙", link: "https://instagram.com" },
+    { icon: Instagram, label: "Instagram", value: "@huxiaoruihu", link: "https://instagram.com" },
   ];
 
   return (
