@@ -3,9 +3,9 @@ import { Mail, Github, Twitter, Linkedin, Instagram } from "lucide-react";
 export default function ContactSection() {
   const contacts = [
     { icon: Mail, label: "Email", value: "student@example.com", link: "mailto:student@example.com" },
-    { icon: Github, label: "GitHub", value: "醉酒詩仙", link: "https://github.com" },
-    { icon: Twitter, label: "Twitter", value: "醉酒詩仙", link: "https://twitter.com" },
-    { icon: Linkedin, label: "LinkedIn", value: "醉酒詩仙", link: "https://linkedin.com" },
+    { icon: Github, label: "GitHub", value: "Night_Stars", link: "https://github.com" },
+    { icon: Twitter, label: "Twitter", value: "Night_Stars", link: "https://twitter.com" },
+    { icon: Linkedin, label: "LinkedIn", value: "Night_Stars", link: "https://linkedin.com" },
     { icon: Instagram, label: "Instagram", value: "@huxiaoruihu", link: "https://instagram.com" },
   ];
 

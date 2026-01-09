@@ -31,7 +31,7 @@ export default function Navigation() {
             className="font-orbitron font-bold text-xl text-cyan-400 hover:text-cyan-300 transition-colors"
             data-testid="link-logo"
           >
-            醉酒詩仙
+            Night_Stars
           </button>
 
           <div className="hidden md:flex items-center gap-8">

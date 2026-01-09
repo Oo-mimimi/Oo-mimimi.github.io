@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function HeroSection() {
-  const [screenName] = useState("醉酒詩仙");
+  const [screenName] = useState("Night_Stars");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
